@@ -1,0 +1,22 @@
+[project]
+name = "youtube-rag-backend"
+version = "0.1.0"
+description = "LangChain RAG API using Groq, HuggingFace, and Flask"
+requires-python = ">=3.10"
+
+dependencies = [
+  "flask",
+  "flask-cors",
+  "langchain",
+  "langchain-community",
+  "langchain-core",
+  "langchain-groq",
+  "faiss-cpu",
+  "sentence-transformers",
+  "huggingface_hub",
+  "groq",
+  "youtube-transcript-api",
+  "tiktoken",
+  "python-dotenv",
+  "chromadb>=1.0.15",
+]
